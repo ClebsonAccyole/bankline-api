@@ -1,5 +1,3 @@
-//server.port=8081
-
 package com.dio.santander.bankline.api.model;
 
 import java.time.LocalDateTime;
@@ -32,6 +30,7 @@ public class Movimentacao {
 	
 	@Column(name = "id_conta")
 	private Integer idConta;
+	
 	public Integer getId() {
 		return id;
 	}
